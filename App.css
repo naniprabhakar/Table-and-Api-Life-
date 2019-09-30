@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.Css {
+    color: #F2EDD8 ;
+    background-color: #7B8D8E;
+}
+
+.Letter:first-letter {
+    font-size: 50px;
+    color: #0000FF;
+}
+.Child:first-child u {
+    border: 2px dotted #0000FF;
+}
+.Line:first-line{word-spacing:10px;}
+
+.textarea:focus{border:2px solid red;}
+
+p:lang(awesome) {border:2px solid red;}
+
+strong::before{ content:"NOTICE:"; color:red;}
+
+.sp{color:red;}
+
+span::after{content:"Indium"; color:blue;}
+
+.cards {
+    background-image: url('http://localhost:3001/');
+    background-position:-17px -373px;
+    background-repeat:no-repeat;
+    width:20px;
+    height:25px;
+    color:coral;
+}
+
+.half {opacity:0.9;filter:alpha(opacity=90);}
+
+.line {background-color:green;opacity:0.9;filter:Alpha(opacity=90); }
+
+table, td, th { border: 2px double #0000FF; margin-left:30px;}
+
+table { border-collapse: collapse; width: 95%; }
+
+th { height: 50px; }
+
+td { height:05px; }
+
+h1{color:peru;}
